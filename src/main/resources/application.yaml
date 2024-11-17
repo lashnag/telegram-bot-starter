@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: telegram-bot-starter
+
+telegram:
+  bot:
+    token: YOUR_BOT_TOKEN
+    updates-scheduler:
+      fixed-rate: 2000
