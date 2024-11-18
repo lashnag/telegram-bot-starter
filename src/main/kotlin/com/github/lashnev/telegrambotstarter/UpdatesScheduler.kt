@@ -1,4 +1,4 @@
-package ru.lashnev.telegrambotstarter
+package com.github.lashnev.telegrambotstarter
 
 import com.pengrad.telegrambot.TelegramBot
 import com.pengrad.telegrambot.model.Update
