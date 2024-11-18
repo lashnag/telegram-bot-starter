@@ -1,4 +1,4 @@
-package com.github.lashnev.telegrambotstarter
+package com.github.lashnag.telegrambotstarter
 
 import com.pengrad.telegrambot.TelegramBot
 import org.springframework.beans.factory.annotation.Value

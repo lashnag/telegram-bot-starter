@@ -3,8 +3,8 @@
 !.gitignore
 !pom.xml
 !README.md
-!src/main/kotlin/com/github/lashnev/telegrambotstarter/TelegramBotAutoConfiguration.kt
-!src/main/kotlin/com/github/lashnev/telegrambotstarter/UpdatesScheduler.kt
-!src/main/kotlin/com/github/lashnev/telegrambotstarter/UpdatesService.kt
+!src/main/kotlin/com/github/lashnag/telegrambotstarter/TelegramBotAutoConfiguration.kt
+!src/main/kotlin/com/github/lashnag/telegrambotstarter/UpdatesScheduler.kt
+!src/main/kotlin/com/github/lashnag/telegrambotstarter/UpdatesService.kt
 !src/main/resources/META-INF/*
 !src/main/resources/application.yaml
