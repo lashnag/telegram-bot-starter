@@ -6,5 +6,5 @@
 !src/main/kotlin/ru/lashnev/telegrambotstarter/TelegramBotAutoConfiguration.kt
 !src/main/kotlin/ru/lashnev/telegrambotstarter/UpdatesScheduler.kt
 !src/main/kotlin/ru/lashnev/telegrambotstarter/UpdatesService.kt
-!src/main/resources/META-INF/spring.factories
+!src/main/resources/META-INF/*
 !src/main/resources/application.yaml
