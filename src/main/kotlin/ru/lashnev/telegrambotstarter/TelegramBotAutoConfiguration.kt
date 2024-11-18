@@ -2,12 +2,12 @@ package ru.lashnev.telegrambotstarter
 
 import com.pengrad.telegrambot.TelegramBot
 import org.springframework.beans.factory.annotation.Value
+import org.springframework.boot.autoconfigure.AutoConfiguration
 import org.springframework.context.annotation.Bean
-import org.springframework.context.annotation.Configuration
 import org.springframework.scheduling.annotation.EnableScheduling
 
 @EnableScheduling
-@Configuration
+@AutoConfiguration
 class TelegramBotAutoConfiguration {
     @Value("\${telegram.bot.token}")
     private val botToken: String? = null
