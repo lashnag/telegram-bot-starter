@@ -16,7 +16,7 @@ class UpdatesScheduler(
 
     private var lastUpdateId = 0
 
-    @Scheduled(fixedRateString = "\${telegram.scheduler.updatesFixedRate}")
+    @Scheduled(fixedRateString = "\${telegram.scheduler.updatesFixedRate:1000}")
     fun getUpdates() {
         try {
             val getUpdatesRequest = GetUpdates().limit(1)
