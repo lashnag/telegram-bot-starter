@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.github.lashnag</groupId>
     <artifactId>telegrambotstarter</artifactId>
-    <version>1.0.13</version>
+    <version>1.0.15</version>
     <name>telegram-bot-starter</name>
     <description>telegram-bot-starter</description>
     <properties>
