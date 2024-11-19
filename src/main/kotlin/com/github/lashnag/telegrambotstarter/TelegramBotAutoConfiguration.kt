@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration
 @Configuration
 class TelegramBotAutoConfiguration {
 
-    @Value("\${telegram.bot.token}")
+    @Value("\${telegram-bot-starter.bot.token}")
     private lateinit var botToken: String
 
     @Bean

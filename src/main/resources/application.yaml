@@ -2,7 +2,7 @@ spring:
   application:
     name: telegram-bot-starter
 
-telegram:
+telegram-bot-starter:
   bot:
     token: YOUR_BOT_TOKEN
   scheduler:
