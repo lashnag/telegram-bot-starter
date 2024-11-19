@@ -5,7 +5,7 @@
     "description": "Bot api token"
   },
   {
-    "name": "telegram-bot-starter.setting-two",
+    "name": "telegram-bot-starter.scheduler.updates-fixed-rate",
     "type": "java.lang.Integer",
     "description": "Fixed rate for scheduling"
   }
