@@ -5,5 +5,5 @@ spring:
 telegram:
   bot:
     token: YOUR_BOT_TOKEN
-    updates-scheduler:
-      fixed-rate: 2000
+  scheduler:
+    updates-fixed-rate: 2000

@@ -12,11 +12,12 @@ import org.springframework.stereotype.Service
 class UpdatesScheduler(
     private val bot: TelegramBot,
     private val updateServices: List<UpdatesService>,
+    private val telegramBotSchedulerProperties: TelegramBotSchedulerProperties,
 ) {
 
     private var lastUpdateId = 0
 
-    @Scheduled(fixedRateString =  "\${telegram.bot.updates-scheduler.fixed-rate:1000}")
+    @Scheduled(fixedRateString = "\${telegram.scheduler.updatesFixedRate}")
     fun getUpdates() {
         try {
             val getUpdatesRequest = GetUpdates().limit(1)
