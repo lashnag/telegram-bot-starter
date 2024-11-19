@@ -1,12 +1,16 @@
-[
-  {
-    "name": "telegram-bot-starter.bot.token",
-    "type": "java.lang.String",
-    "description": "Bot api token"
-  },
-  {
-    "name": "telegram-bot-starter.scheduler.updates-fixed-rate",
-    "type": "java.lang.Integer",
-    "description": "Fixed rate for scheduling"
-  }
-]
+{
+  "groups": [],
+  "properties": [
+    {
+      "name": "telegram-bot-starter.bot.token",
+      "type": "java.lang.String",
+      "description": "Bot api token"
+    },
+    {
+      "name": "telegram-bot-starter.scheduler.updates-fixed-rate",
+      "type": "java.lang.Integer",
+      "description": "Fixed rate for scheduling"
+    }
+  ],
+  "hints": []
+}
