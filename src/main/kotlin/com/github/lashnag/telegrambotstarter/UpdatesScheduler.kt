@@ -11,8 +11,7 @@ import org.springframework.stereotype.Service
 @Service
 class UpdatesScheduler(
     private val bot: TelegramBot,
-    private val updateServices: List<UpdatesService>,
-    private val telegramBotSchedulerProperties: TelegramBotSchedulerProperties,
+    private val updateServices: List<UpdatesService>
 ) {
 
     private var lastUpdateId = 0
