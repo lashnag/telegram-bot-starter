@@ -1,6 +1,6 @@
 Стартер для Spring телеграм ботов. Работает на основе пуллинга и библиотеки pengrad java-telegram-api
 
-Для старта нужно определить настройку telegram.bot.token: YOUR_BOT_TOKEN
+Для старта нужно определить настройку telegram-bot-starter.bot.token: YOUR_BOT_TOKEN
 
 Сервис работает на паттерне цепочка обязанностей. 
 Чтобы обрабатывать сообщения, нужно реализовать интерфейс UpdatesService (List).
