@@ -7,3 +7,4 @@ telegram-bot-starter:
     token: YOUR_BOT_TOKEN
   scheduler:
     updates-fixed-rate: 2000
+    updates-initial-delay: 2000

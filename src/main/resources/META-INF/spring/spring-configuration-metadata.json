@@ -10,6 +10,11 @@
       "name": "telegram-bot-starter.scheduler.updates-fixed-rate",
       "type": "java.lang.Integer",
       "description": "Fixed rate for scheduling"
+    },
+    {
+      "name": "telegram-bot-starter.scheduler.updates-initial-delay",
+      "type": "java.lang.Integer",
+      "description": "Initial delay for scheduling"
     }
   ],
   "hints": []
