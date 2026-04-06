@@ -8,3 +8,6 @@ telegram-bot-starter:
   scheduler:
     updates-fixed-rate: 2000
     updates-initial-delay: 2000
+  client:
+    connection-timeout: 15000
+    read-timeout: 30000
