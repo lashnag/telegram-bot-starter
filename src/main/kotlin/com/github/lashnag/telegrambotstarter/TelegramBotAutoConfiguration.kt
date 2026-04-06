@@ -13,10 +13,10 @@ class TelegramBotAutoConfiguration {
     @Value("\${telegram-bot-starter.bot.token}")
     private lateinit var botToken: String
 
-    @Value("\${telegram-bot-starter.client.connection-timeout}")
+    @Value("\${telegram-bot-starter.client.connection-timeout:15000}")
     private lateinit var connectionTimeout: String
 
-    @Value("\${telegram-bot-starter.client.read-timeout}")
+    @Value("\${telegram-bot-starter.client.read-timeout:30000}")
     private lateinit var readTimeout: String
 
     @Bean
